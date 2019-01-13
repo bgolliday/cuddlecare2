@@ -277,7 +277,10 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+    body {
+  background-image: url('../img/projects/white.jpg'); 
+} }
 
 @media screen and (max-width: 500px) {
   main {
@@ -288,4 +291,8 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; } 
+
+
+
+  }
