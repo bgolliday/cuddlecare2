@@ -103,7 +103,9 @@ body {
   body#bg-img {
     background: url(../img/projects/cc.jpg) no-repeat;
     background-attachment: fixed;
-   /* background-size: cover;*/ }
+    background-size: cover;
+    min-width: 100%;
+  min-height: 100%; }
     body#bg-img:after {
       content: '';
       position: absolute;
