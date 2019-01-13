@@ -1,14 +1,14 @@
 {
-  "name": "modern_portfolio",
+  "name": "cuddlecare",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "CuddleCare website",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
+  "homepage": "https://bgolliday.github.io/cuddlecare",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Brad Traversy",
+  "author": "Blake Golliday",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.2.0",
