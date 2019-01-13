@@ -102,7 +102,8 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/projects/cc.jpg) no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed; */
+    -webkit-background-size: cover;
     background-size: cover;
     min-width: 100%;
   min-height: 100%; }
