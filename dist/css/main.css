@@ -101,9 +101,12 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/projects/cc.jpg);
-    background-attachment: fixed;
-    background-size: cover; }
+    background: url(../img/projects/cc.jpg) no-repeat;
+    /*background-attachment: fixed; */
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+  min-height: 100%; }
     body#bg-img:after {
       content: '';
       position: absolute;
@@ -274,7 +277,10 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+    body#bg-img {
+  background-image: url('../img/projects/white.jpg'); 
+} }
 
 @media screen and (max-width: 500px) {
   main {
@@ -285,4 +291,8 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; } 
+
+
+
+  }
